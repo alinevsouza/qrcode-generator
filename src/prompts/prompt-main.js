@@ -3,7 +3,7 @@ import chalk from "chalk";
 const mainPrompt = [
   {
     name: "select",
-    description: chalk.magenta.bold(
+    description: chalk.magentaBright.bold(
       "Choose one option [1. QRCode | 2. Password]"
     ),
     pattern: /^[1-2]+$/,
